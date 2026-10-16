@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#371d3b">
+  <meta name="description" content="Joan Made It is a women's clothing brand by Joan. Shop sundresses, easy sets, and thoughtful everyday pieces made with care.">
+  <title>Joan Made It (JMI) — Women's Clothing by Joan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Joan Made It home">
+        <span class="brand-mark" aria-hidden="true">JMI</span>
+        <span class="brand-name">Joan Made It<span>JMI · Women's clothing by Joan</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="shop.html">Shop the collection</a>
+        <a href="#collections">Find your look</a>
+        <a href="#about">About JMI</a>
+        <a href="#craft">How to order</a>
+        <button class="cart-button" id="open-cart" type="button" aria-label="Open shopping bag">Bag <span class="cart-count" id="cart-count">0</span></button>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <p class="eyebrow">Sewn in Nigeria · Made by Joan</p>
+      <h1>A little colour<br>goes a <em>long way.</em></h1>
+      <p class="hero-copy">Ankara, occasion gowns and easy favourites, sewn for women who like their clothes to feel as good as they look.</p>
+      <div class="actions">
+        <a class="button button-primary" href="shop.html">Shop the collection <span class="arrow" aria-hidden="true">↗</span></a>
+        <a class="button button-quiet" href="#about">Get to know JMI</a>
+      </div>
+    </div>
+    <figure class="hero-mobile-image"><img src="assets/images/zuri-gown.jpg" alt="A woman in a turquoise Nigerian gown and matching gele" fetchpriority="high"></figure>
+    <div class="hero-stamp" aria-label="Made with love in Nigeria"><span>Made with love<br>in Nigeria</span></div>
+    <div class="hero-foot wrap"><span>Joan Made It · JMI</span><span>Made with care in Nigeria</span></div>
+  </header>
+  <div class="fabric-ribbon" aria-hidden="true"></div>
+
+  <main>
+    <section class="intro" id="about">
+      <div class="intro-grid wrap">
+        <div>
+          <p class="section-label">A little about JMI</p>
+          <h2>Made in Nigeria, with a love for a good fit.</h2>
+        </div>
+        <div>
+          <p class="intro-copy">Joan Made It is Joan's women's clothing label, bringing together lively Ankara prints, beautifully sewn gowns, sundresses, and everyday pieces. Have a celebration coming up, or a fabric you've been saving? Choose a style and tell Joan what you have in mind.</p>
+          <p class="signature">Joan sews it. You make it yours.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="collections" id="collections">
+      <div class="wrap">
+        <div class="collections-heading">
+          <div><p class="section-label">Pick your occasion</p><h2>What are we dressing for?</h2></div>
+        </div>
+        <div class="collections-grid">
+          <a class="collection-tile" href="shop.html?category=ankara#collection">
+            <img src="assets/images/abeni-ankara.jpg" alt="Woman wearing a bright Ankara occasion gown" loading="lazy">
+            <span class="collection-copy"><span>Colour with a little drama</span><strong>Ankara &amp; owambe <b aria-hidden="true">↗</b></strong></span>
+          </a>
+          <a class="collection-tile" href="shop.html?category=dresses#collection">
+            <img src="assets/images/zuri-gown.jpg" alt="Woman in a beautifully sewn teal traditional gown" loading="lazy">
+            <span class="collection-copy"><span>Made for your big entrance</span><strong>Sewn gowns <b aria-hidden="true">↗</b></strong></span>
+          </a>
+          <a class="collection-tile" href="shop.html?category=everyday#collection">
+            <img src="assets/images/adire-daydress.jpg" alt="Woman in a vibrant African print outfit" loading="lazy">
+            <span class="collection-copy"><span>Easy does it</span><strong>Everyday colour <b aria-hidden="true">↗</b></strong></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalogue" id="catalogue">
+      <div class="wrap">
+        <div class="catalogue-heading">
+          <div><p class="section-label">A few favourites</p><h2>Made for your kind of day.</h2></div>
+          <p>From a bright Ankara gown to an easy sundress, here's a little look at what Joan makes.</p>
+        </div>
+        <div class="product-grid" aria-live="polite">
+          <article class="product-card" data-category="dresses ankara" data-id="abeni-ankara-gown" data-price="20000">
+            <div class="product-image"><img src="assets/images/abeni-ankara.jpg" alt="Woman in a bright orange and blue Ankara gown" loading="lazy"><span class="product-tag">Ankara · Occasion</span></div>
+            <div class="product-info"><div class="product-meta"><span>JMI · Ankara gown</span><span>01</span></div><h3>The Abeni Gown</h3><p>A full, feel-good silhouette for owambes, weddings and big family days.</p><div class="price-row"><span class="product-price">From ₦20,000</span><span class="made-to-order">Made to order</span></div><button class="product-link" type="button" data-open-product>Choose options <span aria-hidden="true">＋</span></button></div>
+          </article>
+          <article class="product-card" data-category="dresses sundresses" data-id="adire-sundress" data-price="20000">
+            <div class="product-image"><img src="assets/images/adire-daydress.jpg" alt="Woman wearing a colourful orange and blue African print set" loading="lazy"><span class="product-tag">African print</span></div>
+            <div class="product-info"><div class="product-meta"><span>JMI · African print</span><span>02</span></div><h3>The Adire Day Set</h3><p>An easy, airy favourite for outings, holidays and slow Sundays.</p><div class="price-row"><span class="product-price">From ₦20,000</span><span class="made-to-order">Made to order</span></div><button class="product-link" type="button" data-open-product>Choose options <span aria-hidden="true">＋</span></button></div>
+          </article>
+          <article class="product-card" data-category="sets ankara" data-id="sisi-ankara-set" data-price="20000">
+            <div class="product-image"><img src="assets/images/sisi-attire.jpg" alt="Woman wearing a bright Ankara two-piece with matching headwrap" loading="lazy"><span class="product-tag">Ankara · Two-piece</span></div>
+            <div class="product-info"><div class="product-meta"><span>JMI · Two-piece</span><span>03</span></div><h3>The Sisi Set</h3><p>A matching top and skirt with room for your favourite print and colour.</p><div class="price-row"><span class="product-price">From ₦20,000</span><span class="made-to-order">Made to order</span></div><button class="product-link" type="button" data-open-product>Choose options <span aria-hidden="true">＋</span></button></div>
+          </article>
+        </div>
+        <p class="catalogue-note">Each style starts at ₦20,000. Joan will confirm the final price based on your chosen fabric and details. Photos are style inspiration, not JMI pieces.</p>
+        <p style="margin-top:28px"><a class="button button-dark" href="shop.html">See all women's styles <span class="arrow" aria-hidden="true">↗</span></a></p>
+      </div>
+    </section>
+
+    <section class="shop-info" id="craft">
+      <div class="shop-info-grid wrap">
+        <article class="shop-info-item"><h3>Made with care</h3><p>Joan makes women's clothing with comfort, fit, and the little finishing details in mind.</p></article>
+        <article class="shop-info-item"><h3>Choose your fit</h3><p>Pick a standard size or choose custom fit. Joan will confirm measurements and details with you.</p></article>
+        <article class="shop-info-item"><h3>Order with Joan</h3><p>Send your bag through WhatsApp. Joan will confirm fabric, final pricing, and delivery before payment.</p></article>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="closing-inner wrap"><h2>Need a hand choosing? Joan’s just a message away.</h2><a class="button" href="https://wa.me/2348166604086">Chat with Joan <span class="arrow" aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner wrap">
+      <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">JMI</span><span class="footer-brand">Joan Made It · JMI</span></a>
+      <div class="footer-meta"><span>Women's clothing by Joan · WhatsApp +234 816 660 4086</span><a href="#home">Back to top ↑</a><span>© <span id="year"></span> Joan Made It</span></div>
+    </div>
+  </footer>
+  <a class="floating-contact" href="https://wa.me/2348166604086" aria-label="Chat with Joan on WhatsApp"><span class="contact-mark" aria-hidden="true">WA</span><span>Chat with Joan</span></a>
+  <div class="overlay" id="cart-overlay" hidden>
+    <aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+      <div class="drawer-head"><h2 id="cart-title">Your bag</h2><button class="icon-button" type="button" data-close-cart aria-label="Close shopping bag">×</button></div>
+      <div class="cart-items" id="cart-items"></div>
+      <div class="cart-summary">
+        <div class="cart-total"><span>Estimated subtotal</span><span id="cart-total">₦0</span></div>
+        <button class="button button-dark" id="checkout-button" type="button" disabled>Continue to WhatsApp <span class="arrow" aria-hidden="true">↗</span></button>
+        <p class="checkout-note">These are starting prices. Joan will confirm your final total, fabric, and delivery before you pay.</p>
+      </div>
+    </aside>
+  </div>
+  <div class="dialog-overlay" id="product-overlay" hidden>
+    <section class="dialog" role="dialog" aria-modal="true" aria-labelledby="product-dialog-title">
+      <div class="dialog-head"><h2 id="product-dialog-title">Choose your options</h2><button class="icon-button" type="button" data-close-product aria-label="Close product options">×</button></div>
+      <div class="product-dialog-body">
+        <img id="product-dialog-image" src="" alt="">
+        <div class="product-dialog-copy">
+          <h3 id="product-dialog-name"></h3>
+          <p id="product-dialog-description"></p>
+          <p class="product-price" id="product-dialog-price"></p>
+          <form id="add-to-bag-form">
+            <label for="product-size">Size</label>
+            <select id="product-size" name="size" required>
+              <option value="">Choose a size</option>
+              <option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option><option>Custom fit</option>
+            </select>
+            <button class="button button-dark" type="submit">Add to bag <span class="arrow" aria-hidden="true">＋</span></button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="dialog-overlay" id="checkout-overlay" hidden>
+    <section class="dialog" role="dialog" aria-modal="true" aria-labelledby="checkout-title">
+      <div class="dialog-head"><h2 id="checkout-title">Send your order to Joan</h2><button class="icon-button" type="button" data-close-checkout aria-label="Close checkout">×</button></div>
+      <p class="checkout-note">Your order details will open in WhatsApp. Joan will confirm the final price, fabric, and delivery before payment.</p>
+      <form class="checkout-form" id="checkout-form">
+        <label for="customer-name">Your name</label>
+        <input id="customer-name" name="name" autocomplete="name" required>
+        <label for="customer-phone">Your WhatsApp number</label>
+        <input id="customer-phone" name="phone" type="tel" autocomplete="tel" placeholder="+234 ..." required>
+        <label for="order-note">Anything Joan should know? <span>(optional)</span></label>
+        <textarea id="order-note" name="note" placeholder="Colour, fabric, measurements, or a question"></textarea>
+        <button class="button button-dark" type="submit">Prepare WhatsApp order <span class="arrow" aria-hidden="true">↗</span></button>
+      </form>
+      <p class="checkout-message" id="checkout-message" role="status"></p>
+      <a class="button button-primary" id="send-whatsapp" href="#" hidden>Open WhatsApp to send order <span class="arrow" aria-hidden="true">↗</span></a>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <script src="shop.js" defer></script>
+</body>
+</html>
